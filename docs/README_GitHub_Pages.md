@@ -25,19 +25,17 @@
 
 ## 回饋表連結
 
-目前首頁中的回饋按鈕先連到 `feedback.html`，裡面已整理成可建立 Google Form 的回饋題目架構。
+目前首頁中的回饋按鈕已連到正式 Google Form：
 
-正式 Google Form 建好後，請把 `docs/index.html` 中這段：
+`https://forms.gle/umBuJyByx22yjyKE9`
 
-```html
-<a class="button" href="feedback.html">查看回饋表</a>
-```
+案例牆投稿表單為：
 
-改成正式表單網址，例如：
+`https://forms.gle/5VcESkyzortBNQp56`
 
-```html
-<a class="button" href="https://forms.gle/你的表單">填寫推廣回饋</a>
-```
+若日後要更換表單，請把 `docs/index.html`、`docs/feedback.html` 或 `docs/cases/index.html` 中的表單網址替換為新的連結。
+
+目前 `docs/feedback.html` 仍保留表單題目稿、回覆欄位 CSV 與 Apps Script 下載，作為日後調整或複製新版使用。
 
 ## 技能包更新方式
 
@@ -48,6 +46,6 @@
 
 ## 建議後續
 
-- 建立 Google Form 收集推廣回饋。
+- 定期查看 Google Form 回覆，整理可公開案例。
 - 每月整理 1-3 則推廣案例放到 `docs/cases/`。
 - 每季更新一次技能包版本。

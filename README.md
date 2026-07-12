@@ -17,7 +17,7 @@
 GitHub Pages 網站放在 `docs/`：
 
 - `docs/index.html`：共學站首頁
-- `docs/feedback.html`：推廣回饋表建議欄位
+- `docs/feedback.html`：推廣回饋表題目稿與表單建立備用資料
 - `docs/cases/`：推廣案例牆
 - `docs/downloads/`：技能包下載檔
 - `docs/assets/`：引導師簡介圖與網站素材
@@ -50,7 +50,13 @@ GitHub Pages 網站放在 `docs/`：
 
 ## 回饋表
 
-第一版建議先用 Google Form 收集老師推廣與技能包使用回饋。正式表單建立後，將 `docs/index.html` 的回饋按鈕替換成表單連結。
+目前使用 Google Form 收集老師推廣與技能包使用回饋：
+
+https://forms.gle/umBuJyByx22yjyKE9
+
+案例牆投稿表單：
+
+https://forms.gle/5VcESkyzortBNQp56
 
 ## 維護節奏建議
 
