@@ -24,7 +24,7 @@ function createOurIslandFeedbackForm() {
   form.addCheckboxItem().setTitle('參與對象與年齡層').setChoiceValues(['國小低年級', '國小中高年級', '國中', '高中職', '大專', '教師', '社工/助人工作者', '家長', '社區民眾', '其他']).setRequired(true);
   form.addMultipleChoiceItem().setTitle('參與人數').setChoiceValues(['10 人以下', '11-20 人', '21-30 人', '31-40 人', '41 人以上']).setRequired(true);
   form.addCheckboxItem().setTitle('使用版本').setChoiceValues(['完整體驗', '短版體驗', '議題討論版', '教師共備版', '班級經營版', '其他']).setRequired(true);
-  form.addCheckboxItem().setTitle('使用了哪些技能包').setChoiceValues(['三種推廣版本', '一頁式教學設計單', '開場與安全聲明話術', '風險情境回應卡', 'ORID 反思題庫', '第一步承諾卡', '校園歧視情境分類清單', '師長版情境卡', '技能包使用路徑', '歧視事件情緒地圖', '事件後副作用與修復檢核', '其他']);
+  form.addCheckboxItem().setTitle('使用了哪些技能包').setChoiceValues(['三種推廣版本', '一頁式教學設計單', '開場與安全聲明話術', '敏感情境回應卡', 'ORID 反思題庫', '第一步承諾卡', '校園歧視情境分類清單', '師長版情境卡', '技能包使用路徑', '歧視事件情緒地圖', '事件後副作用與修復檢核', '其他']);
   form.addCheckboxItem().setTitle('這次活動目標').setChoiceValues(['反歧視理解', '霸凌預防', '班級經營', '生命教育', '公民教育', '輔導活動', '教師共備', '社工/社區倡議', '其他']).setRequired(true);
 
   form.addSectionHeaderItem().setTitle('區塊 3：現場發生了什麼');
