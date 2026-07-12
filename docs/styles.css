@@ -354,6 +354,24 @@ button.button {
   line-height: 1.8;
 }
 
+.word-panel {
+  margin-top: 18px;
+}
+
+.word-heading {
+  margin-top: 36px;
+  margin-bottom: 6px;
+}
+
+.word-heading h3 {
+  font-size: 30px;
+}
+
+.word-grid a {
+  min-height: 104px;
+  background: var(--paper);
+}
+
 .resource-grid,
 .path-grid,
 .scene-list,
