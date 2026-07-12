@@ -383,6 +383,15 @@ h3 {
   border-color: var(--orange);
 }
 
+.mini-resources {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 26px;
+}
+
+.mini-resources a {
+  min-height: 96px;
+}
+
 .island-band {
   background:
     linear-gradient(90deg, rgba(247, 200, 95, .22), rgba(142, 209, 236, .22)),
