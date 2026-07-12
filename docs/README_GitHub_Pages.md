@@ -25,12 +25,12 @@
 
 ## 回饋表連結
 
-目前首頁中的回饋按鈕先連到 `feedback.html`，用來說明建議欄位。
+目前首頁中的回饋按鈕先連到 `feedback.html`，裡面已整理成可建立 Google Form 的回饋題目架構。
 
 正式 Google Form 建好後，請把 `docs/index.html` 中這段：
 
 ```html
-<a class="button" href="feedback.html">查看回饋表欄位</a>
+<a class="button" href="feedback.html">查看回饋表</a>
 ```
 
 改成正式表單網址，例如：

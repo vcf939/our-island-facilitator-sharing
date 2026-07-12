@@ -421,12 +421,87 @@ h3 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.compact-list {
+  margin-bottom: 28px;
+}
+
 .feedback {
   background: var(--paper);
 }
 
 .feedback-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.form-blueprint,
+.case-template {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 28px 0;
+}
+
+.form-blueprint article,
+.case-template article,
+.sample-case {
+  padding: 22px;
+  background: #fff;
+  border: 3px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(70, 54, 29, .08);
+}
+
+.form-blueprint span {
+  display: inline-flex;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background: var(--green);
+  color: #fff;
+  font-weight: 900;
+}
+
+.form-blueprint article:nth-child(2n) span {
+  background: var(--blue);
+}
+
+.form-blueprint article:nth-child(3n) span {
+  background: var(--orange);
+}
+
+.form-blueprint ol,
+.case-template p,
+.sample-case p {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.form-blueprint li + li {
+  margin-top: 8px;
+}
+
+.case-template {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.case-template .slim {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.case-template article h3 {
+  margin-top: 0;
+}
+
+.sample-case {
+  margin: 28px 0;
+  background:
+    linear-gradient(90deg, rgba(142, 209, 236, .18), rgba(247, 200, 95, .18)),
+    #fff;
+}
+
+.sample-case p:last-child {
+  margin-bottom: 0;
 }
 
 .facilitator-panel {
@@ -486,6 +561,8 @@ footer img {
   .path-grid,
   .scene-list,
   .feedback-grid,
+  .form-blueprint,
+  .case-template,
   .facilitator-panel {
     grid-template-columns: 1fr;
   }
